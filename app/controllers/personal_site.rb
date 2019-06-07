@@ -1,7 +1,5 @@
 require 'rack'
 
-equire 'rack'
-
 class PersonalSite
   def self.call(env)
     case env["PATH_INFO"]
